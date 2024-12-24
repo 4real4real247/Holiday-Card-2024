@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap");
+/* keep your starting CSS! */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #f0f4f9;
+  background-image: url(https://assets.codepen.io/t-15440/itp-holiday-bkgd.jpg);
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  font-family: "Mountains of Christmas";
+}
+
+h1 {
+  color: #c60f0f;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+  margin: 4rem;
+}
+.holiday-card {
+  display: flex;
+  gap: 50px;
+}
+img {
+  width: 550px;
+  height: 350px;
+  border: 5px solid #c60f0f;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
